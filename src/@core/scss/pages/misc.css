@@ -1,0 +1,33 @@
+.misc-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.25rem;
+  min-block-size: calc(var(--vh, 1vh) * 100);
+}
+
+.misc-footer-img {
+  position: absolute;
+  inline-size: 100%;
+  inset-block-end: 0;
+}
+
+.misc-avatar {
+  z-index: 1;
+}
+
+.misc-footer-tree {
+  position: absolute;
+  z-index: 1;
+}
+/*# sourceMappingURL=misc.css.map */
